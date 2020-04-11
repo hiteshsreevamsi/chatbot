@@ -1,0 +1,39 @@
+{
+  "intents": [{
+      "tag": "greeting",
+      "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+      "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help?"],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "concern",
+      "patterns": ["I have a problem", "I am facing an issue", "Can you help me", "I need help", "I need your help", "There is problem", "There is an issue", "I cannot"],
+      "responses": ["Sure Ill see what I can do", "Certainly, please wait for a while", "Contacting Sherlock, please stand-by", "Off to the rescue, please be patient"]
+    },
+    {
+      "tag": "hunger",
+      "patterns": ["I am hungry", "Hunger", "I want to eat something", "Feed Me","places to full my stomach"],
+      "responses": ["Sure, here are some useful links:", "Will do: Here are the websites which shows you the places around"]
+    },
+    {
+      "tag":"shopping",
+      "patterns":["Buy","Shopping","Shop","I want to buy a","Where can I find","Need to buy something"],
+      "responses": ["Sure, here are some useful links:", "Will do: Here are the best websites where you can buy new things "]
+    },
+    {
+      "tag":"Lost",
+      "patterns":["I lost something", "my things were stolen","i was robbed","my things are gone","I cannot find something"],
+      "responses":["please contact the police , Here's the number: 100","I'm sorry,I will try my level best to Help you "]
+    }
+  ]
+}
